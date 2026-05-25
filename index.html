@@ -1,0 +1,38 @@
+<!-- codice basato su questo video di Youtube:
+https://youtu.be/EerdGm-ehJQ?si=NSivnmGy4sMQ6HXC
+nello specifico la parte "HTML CSS Review, console.log" -->
+<!--L'estensione Live Server permette di visualizzare le pagine HTML 
+in modo dinamico, cioè non bisogna ricaricare la pagina per vedere i cambiamenti,
+basta fare tasto destro su un punto di questo script e selezionare "Open with Live Server" -->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Due Bottoncini</title>  <!-- titolo della pagina, appare nella scheda del browser -->
+    <style>
+        .red-button {
+            background-color: red;
+            color: greenyellow;
+        }
+
+        .BottoneBlu {
+            background-color: blue;
+            color: white;
+            border: none;
+        }
+    </style> <!-- il tag style è dove si scrive codice CSS -->
+</head>
+<body>
+    <button title="questa e' una tooltip cazzo" class="red-button">
+        helloooo
+    </button> <!-- button -->
+
+    <p>
+        Questo e' un bottone:
+        <button class="BottoneBlu">ciaooo</button>
+        Ora scrivo dopo il bottone
+    </p> <!-- paragraph -->
+
+    <script src="MuoverePulsante.js"></script> <!-- pezzettino di javascript che muove il primo bottone, scritto dall'AI Agent -->
+</body>
+</html>
